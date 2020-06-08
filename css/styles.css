@@ -10218,6 +10218,7 @@ header.masthead h1 {
         display: block;
         visibility: visible;
     }
+
 }
 /* LG */
 @media (min-width: 992px) {
@@ -10294,16 +10295,19 @@ header.masthead h1 {
 }
 .c-carousel{
   background-color: #000000;
-  padding: 2em;
+  padding: 2.5em;
 }
 .carousel-partner {
-    display: inline-block;
-    font-size: 24px;
+    font-size: 2rem;
     line-height: 28px;
     font-weight: 700;
     color: #fff;
     width: 100%;
     text-align: center;
-    padding-top: 24px;
+    padding: 12px;
     padding-right: 20px;
+}
+@media (max-width: 768px) {
+  .carousel-partner {
+    padding-bottom:2rem;
 }
