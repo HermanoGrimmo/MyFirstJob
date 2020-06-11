@@ -9659,6 +9659,7 @@ button.bg-dark:focus {
 }
 
 .text-center {
+  margin:2rem 0 0 0;
   text-align: center !important;
 }
 
@@ -9990,7 +9991,7 @@ hr.light {
 }
 
 #manual{
-  background-image: url("../assets/img/hintergrund2.jpeg");
+  background-image: linear-gradient(to bottom, rgba(236, 179, 121, 0.4) 0%, rgba(236, 179, 121, 0.9) 100%);
 }
 
 #mainNav {
@@ -10453,3 +10454,6 @@ header.masthead h1 {
   }
 }
 
+#signbtn{
+  margin:2rem 0 1rem 0;
+}

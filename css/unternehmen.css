@@ -9991,7 +9991,7 @@ hr.light {
 }
 
 #manual{
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 100%);
+    background-image: url("../assets/img/hintergrund2.jpeg");
 }
 
 #mainNav {
