@@ -9990,6 +9990,10 @@ hr.light {
   background-color: darkgrey;
 }
 
+#manual{
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 100%);
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
@@ -10082,9 +10086,6 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3.5rem;
   }
-}
-#headerbox {
-  background-color: rgba(0,0,0,.5)
 }
 /* Slider*/
 @media (min-width: 768px) and (max-width: 992px) {
@@ -10279,6 +10280,11 @@ header.masthead h1 {
     padding: 2em;
   }
 }
+
+#headerbox{
+  background-color: rgba(0,0,0,.5);
+}
+
 .timeline {
   position: relative;
   padding: 3em 0 0 0;

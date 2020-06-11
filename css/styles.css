@@ -9989,6 +9989,10 @@ hr.light {
   padding: 1rem 0;
 }
 
+#manual{
+  background-image: url("../assets/img/hintergrund2.jpeg");
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #212529;
@@ -10250,6 +10254,10 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+
+.text-white-90 {
+  color: rgba(255, 255, 255, 0.9);
 }
 .c-carousel{
   background-color: #000000;
