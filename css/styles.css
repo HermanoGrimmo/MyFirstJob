@@ -7674,7 +7674,7 @@ button.bg-dark:focus {
 
 .pt-3,
 .py-3 {
-  padding-top: 1rem !important;
+  
 }
 
 .pr-3,
@@ -7684,7 +7684,7 @@ button.bg-dark:focus {
 
 .pb-3,
 .py-3 {
-  padding-bottom: 1rem !important;
+  
 }
 
 .pl-3,
@@ -10025,7 +10025,7 @@ hr.light {
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
-    padding: 0 1rem;
+    padding: .4rem 1rem 0;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #fff;
