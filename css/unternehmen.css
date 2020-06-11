@@ -10083,6 +10083,9 @@ header.masthead h1 {
     font-size: 3.5rem;
   }
 }
+#headerbox {
+  background-color: rgba(0,0,0,.5)
+}
 /* Slider*/
 @media (min-width: 768px) and (max-width: 992px) {
     /* Show 4th slide on md if col-md-4*/
