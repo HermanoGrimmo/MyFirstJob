@@ -548,22 +548,22 @@ pre code {
 }
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
+    max-width: inherit;
   }
 }
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: inherit;
   }
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: inherit;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: inherit;
   }
 }
 
@@ -577,23 +577,29 @@ pre code {
 
 @media (min-width: 576px) {
   .container-sm, .container {
-    max-width: 540px;
+    max-width: inherit;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 720px;
+    max-width: inherit;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: inherit;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: inherit;
   }
+}
+
+#headerbox{
+  background-color: rgba(0,0,0,.5);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .row {
   display: flex;
@@ -5503,7 +5509,7 @@ a.close.disabled {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: inherit;
     margin: 1.75rem auto;
   }
 
@@ -5525,18 +5531,18 @@ a.close.disabled {
   }
 
   .modal-sm {
-    max-width: 300px;
+    max-width: inherit;
   }
 }
 @media (min-width: 992px) {
   .modal-lg,
 .modal-xl {
-    max-width: 800px;
+    max-width: inherit;
   }
 }
 @media (min-width: 1200px) {
   .modal-xl {
-    max-width: 1140px;
+    max-width: inherit;
   }
 }
 .tooltip {
@@ -9658,7 +9664,6 @@ button.bg-dark:focus {
 }
 
 .text-center {
-  margin:2rem 0 0 0;
   text-align: center !important;
 }
 
@@ -10061,7 +10066,7 @@ background: linear-gradient(to top, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Fir
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.6) 0%, rgba(92, 77, 66, 0.6) 100%), url("../assets/img/photo-1522202176988-66273c2fd55f.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.3) 0%, rgba(92, 77, 66, 0.3) 100%), url("../assets/img/photo-1522202176988-66273c2fd55f.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

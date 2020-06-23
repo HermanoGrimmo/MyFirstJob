@@ -546,17 +546,17 @@ pre code {
 }
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
+    max-width: inherit;
   }
 }
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: inherit;
   }
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: inherit;
   }
 }
 @media (min-width: 1200px) {
@@ -575,17 +575,17 @@ pre code {
 
 @media (min-width: 576px) {
   .container-sm, .container {
-    max-width: 540px;
+    max-width: inherit;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 720px;
+    max-width: inherit;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: inherit;
   }
 }
 @media (min-width: 1200px) {
@@ -10393,7 +10393,7 @@ header.masthead h1 {
     float: left;
     width: 41%;
     padding: 0 20px 20px 30px;
-    text-align: right;
+    text-align: left;
   }
   .timeline > li .timeline-image {
     left: 50%;
