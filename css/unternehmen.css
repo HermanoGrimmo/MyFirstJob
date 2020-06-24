@@ -10492,15 +10492,7 @@ header.masthead h1 {
     border-radius:0;
 }
 
-#anleitungNav nav > div a.nav-item.nav-link.active:after
- {
-  content: "";
-  position: relative;
-  bottom: -60px;
-  left: -45%;
-  border: 15px solid transparent;
-  border-top-color: #e74c3c ;
-}
+
 .tab-content{
   background: #fdfdfd;
     line-height: 25px;
