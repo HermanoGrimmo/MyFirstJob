@@ -20,7 +20,7 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">My First Job</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -28,7 +28,7 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="unternehmen.html">Für Unternehmen</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Über uns</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Kontakt</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Einloggen</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="users/login.html">Login</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,18 +37,122 @@
         <header class="masthead">
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold">Finde den Job oder Ausbildung, den Du liebst!</h1>
+                    <div class="container-fluid" id="headerbox">
+                        <div class="col-lg-10 mx-auto">
+                        <h1 class="text-uppercase text-white font-weight-bold">Finde die Ausbildung, die Du liebst!</h1>
                         <hr class="divider my-4" />
                     </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">Erstelle dein persönliches Profil und die Unternehmen bewerben sich bei Dir!</p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Lerne mehr hier</a>
+                    <div class="col-lg-8 align-self-baseline mx-auto">
+                        <p class="text-white-90 font-weight-light mb-5">Erstelle dein persönliches Profil und wir finden ein Top-Unternehmen für Deine Ausbildung!</p>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Das bieten wir Ihnen</a>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- Slider -->
+
+        <!--Marketing Box-->
+
+        <section class="page-section" id="services">
+            <div class="container text-center">
+                <h2 class="section-heading text-uppercase text-dark">Services:</h2>
+                <hr class="divider my-4" />
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">Berufswahltest</h3>
+                            <p class="text-muted mb-0">Durch einen effektiven Berufswahltest können wir Dir genau sagen, welche Ausbildungen am besten zu Dir passen!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-comment-dots text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">Interviews</h3>
+                            <p class="text-muted mb-0">Durch Interviews wollen wir, und damit dein zukünftiger Arbeitgeber, dich kennen lernen, da wir verstehen, dass Zahlen und Fakten nie eine Person ganz wiederspiegeln.  </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">Coaching</h3>
+                            <p class="text-muted mb-0">Die ersten Jobinterviews können furcherregend sein. Unsere Coaches wollen Dir deine Angst nehmen und Dich bestmöglich auf ein Gespräch vorbereiten. Sie sind außerdem stets für Dich erreichbar, falls es doch Probleme geben sollte.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-thumbs-up text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">Wir machen die Arbeit für Dich!</h3>
+                            <p class="text-muted mb-0">Keine lästigen Bewerbungen mehr. Wir kontaktieren die besten Firmen für Dich und stellen Dich vor, so dass Du dich auf wichtigere Dinge konzentrieren kannst.</p>
+                        </div>
+                    </div>
+                </div>                
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" id="btnManual" href="#manual">Lernen Sie mehr hier</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Anleitung-->
+        <section class="page-section" id="manual">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase text-light">So einfach funktioniert es:</h2>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nummer1.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading text-light">Erstelle dein Profil</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-light">Lass‘ uns wissen, was Du beruflich gerne machen möchtest. Beschreib‘ uns Deine persönlichen Interessen und Stärken. Teil‘ uns mit, wann Du Deinen Schulabschluss machen wirst und lade Deine letzten Zeugnisse hoch.<br> Alle Angaben werden von uns streng vertraulich behandelt. Zeitbedarf: Weniger als eine halbe Stunde. Nachdem Du Dein Profil erstellt hast, nehmen wir mit Dir Kontakt auf, um Dir wichtige Tipps zu geben, wie Du Dein Profil noch verbessern kannst. </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nummer2.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading text-light">Finde den Ausbildungsberuf, den Du liebst! </h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-light">Check‘ mit uns, welche Tätigkeiten Dir Spaß machen. Bist Du eher der an Zahlen interessierte Typ oder möchtest Du Deine kreativen Interessen verwirklichen? Bist Du handwerklich interessiert und begabt oder suchst Du eine Ausbildung in einem sozialen Beruf?<br>Mit unserem großen Berufe-Check helfen wir Dir dabei, den Ausbildungsberuf zu finden, der zu Dir passt. Nachdem Du den Berufe-Check absolviert hast, bekommt Du von uns Vorschläge für Ausbildungsberufe, die aus unserer Sicht für Dich besonders geeignet sind.  </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nummer3.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading text-light">Mach‘ den Praxis-Check!</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-light">Beantworte fünf Fragen im Online-Interview zu jedem von uns vorgeschlagenen Ausbildungsberuf, für den Du Dich interessierst. Du erfährst sofort, ob Deine Stärken und Deine Interessen für diesen Ausbildungsberuf besonders vorteilhaft sind. Sollte das nicht der Fall sein, schlagen wir Dir weitere Ausbildungsberufe vor.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nummer4.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading text-light">
+                                <h4 class="subheading">Lass Dich zu einem Bewerbungsgespräch einladen!</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-light">Wenn wir den richtigen Ausbildungsberuf für Dich gefunden haben, sprechen wir aktiv die besten Firmen und Unternehmen aus Deiner Region an. Diese Firmen senden Dir eine Kurzbeschreibung ihres Unternehmens und der betreffenden Ausbildung zu. Wenn Du Interesse an einer Ausbildungsstelle hast, vermitteln wir ein Bewerbungsgespräch.</p></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="users/login.html" id="signbtn">Registration</a>
+                </div>
+            </div>
+            <hr class="divider my-4" />
+        </section>
+
+
+
+                <!-- Slider -->
         <div class="c-carousel">
             <div class="top-content">
                 <div class="container-fluid">
@@ -88,187 +192,11 @@
                 </div>
             </div>
         </div>
+        
 
-        <!-- Anleitung-->
-        <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">So einfach funktioniert es:</h2>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nummer1.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="subheading">Erstelle dein Profil</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">und lass uns wissen welche neuen Herausforderungen Du suchst – es dauert weniger als fünf Minuten.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nummer2.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="subheading">Werde Teil der Community</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Durchlaufe unseren Code Check und nimm ein optionales Gespräch mit deinem Talent Success Advisor wahr, der dich persönlich unterstützt, damit du die besten Job Angebote erhälst.</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nummer3.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="subheading">Werde sichtbar!</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Werde sichtbar auf Honeypot, damit Unternehmen Dein Profil finden und Dir Angebote mit Gehaltsangabe und Tech-Stack vorab machen können.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nummer4.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="subheading">Hol Dir den Job</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Führe Interviews mit Unternehmen, die Dich interessieren! Wähle das Unternehmen, das Dir am besten gefällt.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/ende.jpg" alt="" /></div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <h2 class="text-center mt-0">At Your Service</h2>
-                <hr class="divider my-4" />
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Sturdy Themes</h3>
-                            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Up to Date</h3>
-                            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Ready to Publish</h3>
-                            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-                            <h3 class="h4 mb-2">Made with Love</h3>
-                            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Portfolio-->
-        <div id="portfolio">
-            <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div></a
-                        >
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div></a
-                        >
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div></a
-                        >
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div></a
-                        >
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div></a
-                        >
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg"
-                            ><img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="" />
-                            <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div></a
-                        >
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Call to action-->
-        <section class="page-section bg-dark text-white">
-            <div class="container text-center">
-                <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-            </div>
-        </section>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="mt-0">Let's Get In Touch!</h2>
-                        <hr class="divider my-4" />
-                        <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                        <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-                        <div>+1 (555) 123-4567</div>
-                    </div>
-                    <div class="col-lg-4 mr-auto text-center">
-                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i
-                        ><!-- Make sure to change the email address in BOTH the anchor text and the link target below!--><a class="d-block" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a>
-                    </div>
-                </div>
-            </div>
-        </section>
         <!-- Footer-->
         <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Start Bootstrap</div></div>
+            <div class="container"><div class="small text-center text-muted">My First Job</div></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

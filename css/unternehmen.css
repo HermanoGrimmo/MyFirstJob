@@ -543,27 +543,25 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 }
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
+    max-width: inherit;
   }
 }
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: inherit;
   }
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: inherit;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: inherit;
   }
 }
 
@@ -577,22 +575,22 @@ pre code {
 
 @media (min-width: 576px) {
   .container-sm, .container {
-    max-width: 540px;
+    max-width: inherit;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 720px;
+    max-width: inherit;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: inherit;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: inherit;
   }
 }
 .row {
@@ -9990,6 +9988,10 @@ hr.light {
   background-color: darkgrey;
 }
 
+#manual{
+    background-image: url("../assets/img/hintergrund2.jpeg");
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
@@ -10276,6 +10278,13 @@ header.masthead h1 {
     padding: 2em;
   }
 }
+
+#headerbox{
+  background-color: rgba(0,0,0,.5);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .timeline {
   position: relative;
   padding: 3em 0 0 0;
@@ -10384,7 +10393,7 @@ header.masthead h1 {
     float: left;
     width: 41%;
     padding: 0 20px 20px 30px;
-    text-align: right;
+    text-align: left;
   }
   .timeline > li .timeline-image {
     left: 50%;
@@ -10444,3 +10453,61 @@ header.masthead h1 {
   }
 }
 
+.collapsible-link {
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.collapsible-link::before {
+    content: '\f107';
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    transform: translateY(-50%);
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 1.1rem;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+    content: '\f106';
+}
+
+#anleitungNav nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+#anleitungNav nav > div a.nav-item.nav-link,
+#anleitungNav nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #e74c3c;
+    border-bottom:5px solid #e74c3c;
+    padding:30px 25px;
+}
+
+#anleitungNav nav > div a.nav-item.nav-link:hover,
+#anleitungNav nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #e74c3c;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}

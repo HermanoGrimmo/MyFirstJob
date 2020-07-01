@@ -548,22 +548,22 @@ pre code {
 }
 @media (min-width: 576px) {
   .container {
-    max-width: inherit;
+    max-width: 540px;
   }
 }
 @media (min-width: 768px) {
   .container {
-    max-width: inherit;
+    max-width: 720px;
   }
 }
 @media (min-width: 992px) {
   .container {
-    max-width: inherit;
+    max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: inherit;
+    max-width: 1140px;
   }
 }
 
@@ -577,29 +577,23 @@ pre code {
 
 @media (min-width: 576px) {
   .container-sm, .container {
-    max-width: inherit;
+    max-width: 540px;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: inherit;
+    max-width: 720px;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: inherit;
+    max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: inherit;
+    max-width: 1140px;
   }
-}
-
-#headerbox{
-  background-color: rgba(0,0,0,.5);
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 .row {
   display: flex;
@@ -5509,7 +5503,7 @@ a.close.disabled {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: inherit;
+    max-width: 500px;
     margin: 1.75rem auto;
   }
 
@@ -5531,18 +5525,18 @@ a.close.disabled {
   }
 
   .modal-sm {
-    max-width: inherit;
+    max-width: 300px;
   }
 }
 @media (min-width: 992px) {
   .modal-lg,
 .modal-xl {
-    max-width: inherit;
+    max-width: 800px;
   }
 }
 @media (min-width: 1200px) {
   .modal-xl {
-    max-width: inherit;
+    max-width: 1140px;
   }
 }
 .tooltip {
@@ -7679,7 +7673,8 @@ button.bg-dark:focus {
 }
 
 .pt-3,
-.py-3 {  
+.py-3 {
+  
 }
 
 .pr-3,
@@ -9664,6 +9659,7 @@ button.bg-dark:focus {
 }
 
 .text-center {
+  margin:2rem 0 0 0;
   text-align: center !important;
 }
 
@@ -9991,7 +9987,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 
 #manual{
@@ -10066,7 +10062,7 @@ background: linear-gradient(to top, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Fir
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.3) 0%, rgba(92, 77, 66, 0.3) 100%), url("../assets/img/photo-1522202176988-66273c2fd55f.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.6) 0%, rgba(92, 77, 66, 0.6) 100%), url("../assets/img/photo-1522202176988-66273c2fd55f.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10463,11 +10459,4 @@ header.masthead h1 {
 
 #signbtn{
   margin:2rem 0 1rem 0;
-}
-#signIn{
-  padding-bottom: 2rem;
-}
-
-#btnManual{
-  margin-top: 3rem;
 }
