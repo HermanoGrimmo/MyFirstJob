@@ -16,63 +16,190 @@
         <!-- Third party plugin CSS-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/2versuch.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-<!-- TIPS: 
-1. The carousel shouldn't be in any other div, like for example div with class container. 
-2. You can align image position in classes bg1, bg2, bg3 using css background-position.
-http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
--->
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">My First Job</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="unternehmen.html">Für Unternehmen</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Über uns</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Kontakt</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="users/login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="container-fluid" id="headerbox">
+                        <div class="col-lg-10 mx-auto">
+                        <h1 class="text-uppercase text-white font-weight-bold">Starte die Ausbildung, die Du liebst!</h1>
+                        <hr class="divider my-4" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline mx-auto">
+                        <p class="text-white-90 font-weight-light mb-5">Wir helfen Dir kostenlos bei Berufswahl und Bewerbung und finden das <br> beste  Unternehmen für Deine Ausbildung! </p>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Das bieten wir Dir</a>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-<!-- Carousel 100% Fullscreen -->
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="item bg bg1 active">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Example headline.</h1>
-            <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="item bg bg2">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="item bg bg1">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>One more for good measure.</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-  </div>
-  <!-- /end Carousel 100% Fullscreen -->
+        <!--Marketing Box-->
 
-  <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>  
-<![endif]-->
+        <section class="page-section" id="services">
+            <div class="container text-center">
+                <h2 class="section-heading text-uppercase text-dark">Was nur wir für Dich tun!</h2>
+                <hr class="divider my-4" />
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">Finde Deine Stärken</h3>
+                            <p class="text-muted mb-0"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-comment-dots text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">Lass Dich coachen</h3>
+                            <p class="text-muted mb-0">Unsere erfahrenen Karriere-Coaches helfen Dir bei der Erstellung eines Profils und bereiten Dich bestmöglich auf ein Vorstellungsgespräch vor. Sie sind immer erreichbar, wenn Du Fragen oder Probleme hast.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-globe text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">Erhalte Jobangebote</h3>
+                            <p class="text-muted mb-0">Ab jetzt bewerben sich Unternehmen bei Dir! Wir kontaktieren die besten Unternehmen aus der Region und präsentieren Dich von Deiner besten Seite.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-thumbs-up text-primary mb-4"></i>
+                            <h3 class="h4 mb-2">Werde belohnt</h3>
+                            <p class="text-muted mb-0">Unsere Hilfe ist für Dich absolut kostenlos. Sobald Du einen Ausbildungsvertrag unterschreibst, bekommst Du sogar eine attraktive Prämie.</p>
+                        </div>
+                    </div>
+                </div>                
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" id="btnManual" href="#manual">Und so einfach geht es</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Anleitung-->
+        <section class="page-section" id="manual">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase text-light">So funktioniert es:</h2>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nummer1.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading text-light">Erstelle dein Profil</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-light">Wir benötigen deine Adresse und deine Kontaktdaten. Teile uns mit, wann Du deinen Schulabschluss machen wirst und lade dein letztes Zeugniss hoch. Beschreib uns deine persönlichen Interessen und Stärken.
+                            ! Alle Angaben werden streng vertraulich behandelt. Du benötigst weniger als eine halbe Stunde dafür. Wir machen Dir Vorschläge, wie Du Dein Profil noch verbessern kannst. </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nummer2.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading text-light">Berufswahltest</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-light">Check‘ mit uns, welche Tätigkeiten Dir Spaß machen. Mit unserem großen Berufswahl-Test finden wir diejenigen Ausbildungsberufe, die gut zu Dir passen.  
+                            ! Auch die Ergebnisse dieses Berufswahl-Tests sind streng vertraulich. Du benötigst weniger als eine halbe Stunde dafür.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nummer3.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading text-light">Mach‘ den Praxis-Check!</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-light">Du beantwortest in einem Online-Interview speziell für diesen Ausbildungsberuf wichtige Fragen und erfährst unmittelbar, ob Du dafür besonders geeignet bist. Falls wir uns nicht sicher sind, schlagen wir Dir weitere Ausbildungsberufe vor. 
+                            ! Du brauchst weniger als eine Stunde pro Interview. Die Interviews und deren Ergebnisse werden streng vertraulich behandelt. Unsere Coaches beraten Dich hinsichtlich Deiner Möglichkeiten.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/nummer4.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading text-light">
+                                <h4 class="subheading">Jetzt kannst Du Dich entspannen</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-light">Wir suchen nach den passenden Stellen für Dich. Du erhältst Anfragen von Unternehmen und entscheidest, welche für Dich in Frage kommen.</p></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="users/login.html" id="signbtn">Jetzt anmelden</a>
+                </div>
+            </div>
+            <hr class="divider my-4" />
+        </section>
+
+
+
+                <!-- Slider -->
+        <div class="c-carousel">
+            <div class="top-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="carousel-partner col-12 col-sm-12 col-md-3 col-lg-3 ">Unsere Partner:</div>
+                            <div id="carousel-example" class="carousel slide col-12 col-sm-12 col-md-9 col-lg-9" data-ride="carousel">
+                                <div class="carousel-inner row mx-auto" role="listbox">
+
+                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+                                        <img src="assets/img/portfolio/Eventim.jpg" class="img-fluid mx-auto d-block" alt="img1">
+                                    </div>
+                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <img src="assets/img/portfolio/ansons.jpg" class="img-fluid mx-auto d-block" alt="img2">
+                                    </div>
+                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <img src="assets/img/portfolio/galeria.jpg" class="img-fluid mx-auto d-block" alt="img3">
+                                    </div>
+                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <img src="assets/img/portfolio/mediamarkt.jpg" class="img-fluid mx-auto d-block" alt="img4">
+                                    </div>
+                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <img src="assets/img/portfolio/nike.jpg" class="img-fluid mx-auto d-block" alt="img5">
+                                    </div>
+                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <img src="assets/img/portfolio/saturn.jpg" class="img-fluid mx-auto d-block" alt="img6">
+                                    </div>
+                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <img src="assets/img/portfolio/starbucks.jpg" class="img-fluid mx-auto d-block" alt="img7">
+                                    </div>
+                                    <div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+                                        <img src="assets/img/portfolio/zalando.jpg" class="img-fluid mx-auto d-block" alt="img8">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
         <!-- Footer-->
         <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Start Bootstrap</div></div>
+            <div class="container"><div class="small text-center text-muted">My First Job</div></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
