@@ -10475,5 +10475,13 @@ header.masthead h1 {
   font-size: 1.5rem;
 }
 hr.solid{
-  border-top: 3px solid #bbb;
+  border-top: 2px solid #bbb;
+}
+@media (max-width: 768px) {
+  #reihe{
+    margin-bottom: 1rem;
+  }
+}
+#manual .divider{
+  border-color: #343a40;
 }
